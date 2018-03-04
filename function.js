@@ -1,6 +1,15 @@
 
 //02/11/18//basecamp2//Function//practice problems//
 
+/* the way to tell computer to perform action. 
+  function have: name, inputs, and actions.
+  defining function: function name (inputs){actions}.
+  function can be anything such ass: add or remove items from the array, ect.
+  function expression: var sayName = function(){};
+  function decaration: function sayName(){};
+  function a way to weite repeatable code.
+  a parameter is a variable.
+*/
 
 
 //9.1 Create a new function called increment that adds one to the value of the counting 

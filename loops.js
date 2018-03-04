@@ -85,8 +85,9 @@ var text = "";
 for (i = 0; i < nameArray.length; i++) {    //.length
   text += nameArray[i];      // concatenating the nameArray to text//
 };
-console.log(text);    //Emma Amm Phommatha
-console.log(nameArray);    //[ 'Emma', 'Amm', 'Phommatha' ]
+console.log(text); // return => Emma Amm Phommatha
+console.log(nameArray); // return => [ 'Emma', 'Amm', 'Phommatha' ]
+console.log(nameArray[0]); // return => Emma
 
 
 //example// not hard-coding// array//

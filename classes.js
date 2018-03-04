@@ -1,6 +1,7 @@
 
 //02/09/18//basecamp2//classes//mini project//
 
+/* writing constructor functions and adding methods to the prototype.*/
 
 //example//
 class Burger {     //class name Burger//
@@ -62,6 +63,23 @@ tawen; // = Tree { height: 6, food: 'photosynthesis' }
 console.log(tawen); //return Tree { height: 6, food: 'photosynthesis' }
 
 
+//example//
+class Student{
+  constructor(name,cohort){
+    this.name = name;
+    this.cohort = cohort;
+  }
+  sayName(){
+    return "Hi I am " + this.name
+  }
+}
+var emma = new Student("Emma", 35);
+console.log(emma.name) // return => "Emma"
+var alan = new Student("Alan", 13);
+alan.sayName(); // return => 'Hi I am Alan'
+
+
+
 //#1 Create a class called Puppy.
 //The class should have a constructor that accepts three parameters: happiness, energy, and behavior.
 // CODE
@@ -114,6 +132,7 @@ class Puppy {
 var Larry = new Puppy(10, 20, 30);
 var Moe = new Puppy(40, 50, 60);
 var Curly = new Puppy(70, 80, 90);
+console.log(Larry); // return => Puppy { happiness: 10, energy: 20, behavior: 30 }
 
 
 //#4 The class Puppy needs two methods.

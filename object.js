@@ -1,7 +1,10 @@
-                           
-                           //02/01/18//basecamp2//object//
 
-                                         
+//02/01/18//basecamp2//object//
+
+/* key - value pair. 
+collection of lelated information and store in a single variables.
+*/
+
 // 7.1 In the coding panel, initialize a new JavaScript object called 
 // favorites and then add the following string properties:
 // 1.food - should contain a string of your favorite food.
@@ -10,11 +13,13 @@
 
 // CODE
 var favorites = {
-  food : "pizza",
-  hobby : "soccer",
-  movie : "minions",
+  food: "pizza",
+  hobby: "soccer",
+  movie: "minions",
 };
- 
+console.log(favorites); // return => { food: 'pizza', hobby: 'soccer', movie: 'minions' }
+console.log(favorites.food); // return => pizza
+
 
 // 7.2  Add a new property to the object in the coding pane called batmanIsCool. 
 // You should be able to do this without modifying the code above line 6. 
@@ -28,16 +33,32 @@ var myThoughtsAboutSuperheroes = {
 // CODE
 myThoughtsAboutSuperheroes.batmanIsCool = true;
 
+console.log(myThoughtsAboutSuperheroes);
+/* return => 
+{ spidermanIsCool: true,
+  ironManNeedsMoney: false,
+  aquamanIsCoolerThanHeLooks: false,
+  batmanIsCool: true }
+*/
+console.log(myThoughtsAboutSuperheroes.spidermanIsCool); // return => true
 
 // 7.3 Create a new variable by concatenating the first and second properties from the words object. 
 // Call the variable trueStatement. 
 
 var words = {
-  first:'Javascript Objects',
-  second:' get easier to use with practice.',
+  first: 'Javascript Objects',
+  second: ' get easier to use with practice.',
 };
 // CODE
 var trueStatement = words.first + words.second;
+
+console.log(words);
+/* return => { first: 'Javascript Objects',
+  second: ' get easier to use with practice.' }
+*/
+
+console.log(trueStatement);
+/* return => Javascript Objects get easier to use with practice.*/
 
 
 // 7.4 Initialize a new object variable on line 6. Call your object variable treasureHunt and give it 3 properties.
@@ -56,11 +77,14 @@ var keyLocation = "Rick swallowed it. Available in 24 hours.";
 
 // CODE
 var treasureHunt = {
-  coin:coinLocation,
-  locket:locketLocation,
-  key:keyLocation
+  coin: coinLocation,
+  locket: locketLocation,
+  key: keyLocation
 };
+console.log(treasureHunt);
+/* return => { coin: 'Hidden in the sofa.',
+  locket: 'Buried in the garden.',
+  key: 'Rick swallowed it. Available in 24 hours.' }
+*/
 
 
-                           
-                           

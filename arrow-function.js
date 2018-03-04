@@ -1,6 +1,7 @@
 
 // 02/08/18// basecamp2// arrow function =>//mini project//
-//
+
+/* make function easier to read. */
 
 
 //#1 Instructions 
@@ -27,25 +28,25 @@ var seven = () => 7;
 // You should not use the ES5 function declaration syntax in your final solution.
 // Be sure to call the functions the same name as in the ES5 syntax functions.
 // Function 1
-function add(num1, num2){
+function add(num1, num2) {
   return num1 + num2;
 }
 // CODE
-var add = (num1,num2) => num1+num2;
+var add = (num1, num2) => num1 + num2;
 
 // Function 2
-function subtract(num1, num2){
+function subtract(num1, num2) {
   return num1 - num2;
 }
 // CODE
-var subtract = (num1,num2) => num1-num2;
+var subtract = (num1, num2) => num1 - num2;
 
 // Function 3
-function double(num){
+function double(num) {
   return num * 2
 }
 // CODE
-var double = num => num *2;
+var double = num => num * 2;
 
 
 //#4 Instructions 
@@ -53,7 +54,7 @@ var double = num => num *2;
 // and return the product of the two parameters.
 // ou should not use the ES5 function declaration syntax in your final solution.
 // CODE
-var multiply = (num1,num2) => num1*num2;
+var multiply = (num1, num2) => num1 * num2;
 
 
 //#5 Instructions 
@@ -65,10 +66,10 @@ var isGreaterThanTwenty = (num) => {
   return num > 20;
 };
 // Or this way is the ES5 function declaration syntax //
-var isGreaterThanTwenty = (number)=> {
-  if(number>20){
+var isGreaterThanTwenty = (number) => {
+  if (number > 20) {
     return true;
-  }else{
+  } else {
     return false;
   }
 };
@@ -88,12 +89,12 @@ var add = (num1, num2) => num1 + num2;
 // Should not use the ES5 function declaration syntax in your final solution.
 // Should not use a for loop.
 // Should not have the function keyword anywhere in the solution.
-var jobs = [{receptionist: "James"}, 
-{programmer: "Steve"},
-{designer: "Alicia"}];
+var jobs = [{ receptionist: "James" },
+{ programmer: "Steve" },
+{ designer: "Alicia" }];
 
 // CODE
-var solution = jobs.filter((obj)=> obj.programmer);
+var solution = jobs.filter((obj) => obj.programmer);
 
 
 // #8 Instructions 
@@ -103,11 +104,11 @@ var solution = jobs.filter((obj)=> obj.programmer);
 // Should use arrow function
 // Should be a multi-line function
 // CODE
-var gemInfo = (gemType,gemSize,gemWeight) =>{
+var gemInfo = (gemType, gemSize, gemWeight) => {
   return {
-  gemType,
-  gemSize,
-  gemWeight
+    gemType,
+    gemSize,
+    gemWeight
   };
 };
 
@@ -123,7 +124,7 @@ var numbers = "TBD";
 
 // CODE
 var evens = () => {
-  return numbers.filter(num =>num %2 === 0);
+  return numbers.filter(num => num % 2 === 0);
 };
 
 
@@ -138,7 +139,7 @@ var strings = "TBD";
 
 // CODE
 var startWithLetterA = () => {
-  return strings.filter(str => str.charAt(0)==='a');
+  return strings.filter(str => str.charAt(0) === 'a');
 };
 
 
@@ -153,7 +154,7 @@ var names = "TBD";
 
 // CODE
 var formalGreeting = () => {
-  return names.map(name => "Hello, "+name);
+  return names.map(name => "Hello, " + name);
 };
 
 
@@ -168,5 +169,5 @@ var numbers = "TBD";
 
 // CODE
 var productOfArray = () => {
-  return numbers.reduce((accumulator,num)=>accumulator*num);
+  return numbers.reduce((accumulator, num) => accumulator * num);
 };

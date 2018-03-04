@@ -3,22 +3,26 @@
 
                       
 
-// In JavaScript, variables have an inherited boolean (true or false) value. These values are known and truthy and falsy. Lets take a look and see what values are always falsy.
-
+/* In JavaScript, variables have an inherited boolean (true or false) value. 
+These values are known and truthy and falsy. 
+Lets take a look and see what values are always falsy.
+*/
  false
  0              //as a number. All other numbers, including negatives, are truthy
  ' ' or " "     //empty strings
  null           //any variable declared with the value of null
- undefined      // a blank variable
+ undefined      //a blank variable
  NaN            //not a number
 
-// Everything other than those variable values is considered truthy.  Some other values that you may think are falsy but are actually truthy include:
+// Everything other than those variable values is considered truthy.  
+//Some other values that you may think are falsy but are actually truthy include:
 
 '0'         //as a string
 []         //an empty array
 {}         //an empty object
 'false'   //as a string
 // To make this more clear, lets take a look at this function that will evaluate whether a value is either truthy or falsy.
+
 
 function truthyOrFalsy(val){
   if(val){
@@ -46,6 +50,7 @@ truthyOrFalsy(null);
 truthyOrFalsy(NaN);
 // logs 'The value is falsy';
 // As you can see, this simple function will allow us to test any values we may have being truthy or falsy. Now you can use these values to your advantage when evaluating data.
+
 
 //1.//
 function truthyOrFalsy(val){

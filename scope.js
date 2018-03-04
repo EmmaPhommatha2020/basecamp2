@@ -1,9 +1,9 @@
              
              //02 / 01 / 18 / basecamp2//scope //mini project//
-// scope is location.
-// global scope is outside of the function can be accessed anywhere in the code.
-// local scope is inside of the function and can be accessed within the function.
-             
+/* scope is location.
+global scope is outside of the function can be accessed anywhere in the code.
+local scope is inside of the function and can be accessed within the function.
+ */            
 
 // Instructions
 // These problem are designed to give you a better understanding of scope related to variables and functions.Follow the instructions below but don't delete anything when you go to the next step.
@@ -59,14 +59,13 @@ var globalName = "Emma";
 function myName() {
   console.log("Hi, my name is " + globalName);
 }
-myName();
+myName(); // return => Hi, my name is Emma
 
 
 function myColor() {
   var localColor = blue;
   console.log(localColor);
 }
-
 
 var myState = "Colorado";
 

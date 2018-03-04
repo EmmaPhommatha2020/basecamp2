@@ -1,6 +1,7 @@
 
 //01/31/18/ basecamp2//conditionals, if/else if/else statement// and nested conditionals//
 
+/* use to define logic and evaluation when solve problem */
 
 
 //11.1  Complete the function to the right by adding an if/then statement inside that returns true as long as the number 

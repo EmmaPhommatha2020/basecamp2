@@ -1,6 +1,7 @@
 
 //02/08/18// basecamp2//callbacks functions// mini project//
 
+/* function that passed in as a parameter into another function which invokes it.*/ 
 
 
 // example//

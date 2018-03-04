@@ -1,6 +1,11 @@
 
 //01/31/18 // basecamp2////variable in JavaScript//
 
+/* store information for later use.
+variable have 2 parts: 
+•••Identifier = name of the variable
+•••Contents = the data types that the name represents
+*/
 
 
 //example// 
